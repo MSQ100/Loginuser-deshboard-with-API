@@ -1,0 +1,18 @@
+<header id="header" color="btn btn-primary" *ngIf="isLoggedIn$|async as isLoggedIn">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto ">
+                <span class="logo-image">
+                    <img src="../../assets/IMG-20211012-WA0007.jpg" class="angular-logo">
+                </span>
+                <li class="nav-item ">
+                    <button class="rounded" class="btn btn-danger" (click)="onLogout()"
+                        *ngIf="isLoggedIn">Logout</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

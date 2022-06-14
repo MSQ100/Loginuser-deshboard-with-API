@@ -1,0 +1,121 @@
+#sidebar-wrapper{
+    position: fixed;
+    display:flex;
+    gap:40px;
+    grid-template-columns: 14rem auto 23rem;
+    flex-direction: column;
+    width: 150px;
+    height: 660px;
+    background-color:blue !important;
+    top: 60px;
+    bottom: 0;  
+    font-size: 24px;     
+    border-radius: 10px;
+ 
+
+}
+
+#sidebar-wrapper a{
+    text-decoration: none;
+    color:white;
+}
+
+#sidebar-wrapper a,i{
+   text-align: center;
+   font-size:15px;
+   gap: 50px;
+}
+#sidebar-wrapper,i{
+    text-align: center;
+    font-size:40px;
+    gap: 50px;
+    font-size: 20px;
+ }
+
+#sidebar-wrapper a:hover{
+    color:whitesmoke;
+}
+#page-content-wrapper{
+    display:flex;
+    gap:80px;
+    margin-left:150px;   
+    justify-content: center;   
+    margin-right: 0px; 
+    height: 40px;
+    margin-top: 60px;
+    font-size: 15px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.sidebar-heading{
+    color:white;
+}
+
+.bg-light .sidebar-heading:hover{
+    color:blue;
+}
+.navbar .navbar-dark .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 500;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+  }
+
+.navbar-brand .nga-navbar-logo{
+margin-right: 100px;
+}
+  .navbar-collapse .navbar-nav .nav-item .nav-link{
+    margin-left: 30px;
+    color:black !important;
+    
+  }
+  
+  .nga-navbar {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 11px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: whitesmoke; 
+  }
+  
+  .nga-navbar-logo {
+    font-weight: 700;
+    color: black;
+  }
+  
+  .nga-navbar-logo:hover {
+    color: blue;
+  }
+  .container-fluid{
+    margin-left:10px;
+    margin-top: 60px;
+  }
+  
+.card-img-top{
+    height: 100px;
+    margin-top: 50px;
+}
+.card-body.card-title,h,p{
+    height: 50px;
+}
+.card-body.card-title,p{
+    font-size: 15px;
+}
+
+input {
+  display: none;
+}
+
+label.uploader-circle {
+  size: 23px;
+  cursor: pointer;
+  width: size;
+  height: size;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 100%;
+  position:absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  transition: all .2s ease-out;
+}

@@ -1,0 +1,35 @@
+<div class="container col-8" style="border:2px solid white; margin-top: 50px;">
+    <h3> Add New Users </h3>
+    <div class="register-form">
+        <form>
+           
+
+            <div class="form-group">
+                <input type="text" name="name" 
+                class="form-control" placeholder="Enter name" 
+                [(ngModel)]="users.name" id="nameText" />
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="username" 
+                class="form-control" placeholder="Enter User Name"
+                [(ngModel)]="users.username" id="usernameText" />    
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="email" 
+                class="form-control" placeholder="mabs@gmail.com"
+                [(ngModel)]= "users.email" id="emailText" />    
+            </div>
+         
+                <!-- <input type="file" (change)="onFileSelected($event)">
+                <input type="button" value="upload" (click)="onUpload()"> -->
+            <br> <br>
+
+            <div class="form-group">
+                <button type="submit" (click)="addusers()" class="btn btn-primary">Submit</button>  
+            </div>
+        </form>
+        
+    </div>
+</div>

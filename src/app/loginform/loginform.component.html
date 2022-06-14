@@ -1,0 +1,27 @@
+
+<div class="row"> 
+    <span> HMA </span> 
+
+<div class="container sm">
+    
+    <form [formGroup]="LoginForm" (ngSubmit)="submit()">
+        <h3>Please Login to Continue </h3>
+       
+        <div class="form-froup">
+            <input class="form-control" formControlName="Email_id" type="email" placeholder="Email id" required>
+        </div>
+
+          <br>
+
+        <div class="form-group">
+            <input formControlName="password" id="password" type="password" class="form-control" placeholder="Password" required>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-end mt-4 mb-0">
+            <a class="small" href="password.html">Forgot Password?</a>
+            
+        </div>
+        <button class="btn btn-primary" type="submit">Login</button>
+    </form>
+</div>
+</div>

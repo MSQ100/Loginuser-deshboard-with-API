@@ -1,0 +1,42 @@
+
+.marginright{
+    margin-right: 150px;
+    background-color: white;
+}
+#white.navbar-brand.form-inline{
+    background-color:white;
+    margin-left: 40px;
+}
+
+.newdiv{
+    border-radius: 5px;
+    margin-right: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+.navbar-brandnew{
+    margin-left: 20px;
+}
+.form-inline new,input.form-controls{
+    margin-left:1020px;
+    margin-top:-20px;
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white !important;
+}
+.table thead{
+    color:gray;
+    text-align: center;
+    font-size: 15px;
+}
+.table td, table th {
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+  }
